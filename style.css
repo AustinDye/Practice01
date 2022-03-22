@@ -1,0 +1,12 @@
+body{
+    max-width: 30%;
+    text-align: center;
+}
+
+.header{
+    padding-left: 33em;
+    background-color: blueviolet;
+    height: 25em;
+    width: 25em;
+    
+}
