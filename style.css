@@ -1,13 +1,12 @@
 body{
     background-color: rgb(228, 217, 254);
-    margin-bottom: 10vh;
+    margin-bottom: 10vh
 }
 
 main{
     display: flex;
-    flex-direction: row;
+    flex-direction: row
 }
-
 
 header{
     color: whitesmoke;
@@ -19,20 +18,18 @@ h2{
     text-align:center
 }
 
-
 footer{
     height: 10vh;
     margin-bottom: 0%;
     margin-left: 0%;
     margin-right: 0%;
-    text-align: center;
     background-color: rgb(0, 0, 183)
 }
 
 .d-flex{
     margin-top: 1rem;
     width: 50vw;
-    margin-left: 15vw;
+    margin-left: 15vw
 }
 
 .d-flex-small{
@@ -43,9 +40,9 @@ footer{
     width: 20%;
     height: 10%
 }
-.image{
+.image-container{
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
 
 #head-bar{
