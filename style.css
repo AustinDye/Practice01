@@ -1,7 +1,6 @@
 body{
     background-color: rgb(228, 217, 254);
-    
-
+    margin-bottom: 10vh;
 }
 
 main{
@@ -9,56 +8,49 @@ main{
     flex-direction: row;
 }
 
-.d-flex{
-   
-    margin-top: 1rem;
-    display: flex;
-    
-    width: 50vw;
-    margin-left: 15vw;
-    font-size: large
-    
-    
-}
 
 header{
-  
-    text-align: center;
-    background-color: blue
-    
-}
-
-h2{
-    
-    text-align:center
-}
-
-
-
-.footer{
-    display: block;
-
+    color: whitesmoke;
     text-align: center;
     background-color: rgb(0, 0, 183)
 }
 
-.d-flex-small{
+h2{
+    text-align:center
+}
 
-    background-color: rgb(232, 218, 253);
-    font-size: xx-small;
+
+footer{
+    height: 10vh;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: center;
+    background-color: rgb(0, 0, 183)
+}
+
+.d-flex{
+    margin-top: 1rem;
+    width: 50vw;
+    margin-left: 15vw;
+}
+
+.d-flex-small{
+    background-color: rgb(133, 93, 193);
+    font-size: x-small;
     flex-direction: column;
     margin-top: 6rem;
-    padding-left: 5%;
-    display: flex;
-    width: 18%;
+    width: 20%;
     height: 10%
-  
 }
-#head-bar{
+.image{
+    display: flex;
+    justify-content: center;
+}
 
+#head-bar{
     background-color: rgb(152, 152, 241);
     width:100%;
     padding-top: 1%;
     display:block
-
 }
